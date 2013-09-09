@@ -1,6 +1,6 @@
-//* Register newsletter widget area
+//* Register a new widget area in Genesis
 genesis_register_sidebar( array(
-	'id'		=> 'aboutmebox',
-	'name'		=> __( 'About Me', 'custom-theme' ),
-	'description'	=> __( 'This is the About Me section found under each post.', 'custom-theme' ),
+	'id'		=> 'widget-name',
+	'name'		=> __( 'Text to show in dashboard', 'custom-theme' ),
+	'description'	=> __( 'Dexcription to show.', 'custom-theme' ),
 ) );
